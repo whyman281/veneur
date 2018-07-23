@@ -244,7 +244,6 @@ Secondly, the shift in *not* buffering spans on their way to LightStep should be
 * Emit GC metrics at flush time. This feature is best used with Go 1.9 as previous versions cause GC pauses when collecting this information from go. Thanks [gphat](https://github.com/gphat)!
 * Allow configuration of LightStep's reconnect period via `trace_lightstep_reconnect_period` and the maximum number of spans it will buffer via `trace_lightstep_maximum_spans`. Thanks [gphat](https://github.com/gphat)!
 * Switch to [dep](https://github.com/golang/dep/) for managing the `vendor` directory. Thanks [chimeracoder](https://github.com/chimeracoder)!
-* Remove support for `govendor`. Thanks [chimeracoder](https://github.com/chimeracoder)!
 * Added [harmonic mean](https://en.wikipedia.org/wiki/Harmonic_mean) as an optional aggregate type. Use `hmean` as an option to the `aggregates` config option to enable. Thanks [non](https://github.com/non)!
 
 ## Improvements
